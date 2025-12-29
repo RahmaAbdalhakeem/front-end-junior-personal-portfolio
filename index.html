@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+  <!--CSS -->
+  <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top py-2">
+    <div class="container-fluid">
+      <a class="navbar-brand text-dark" href="#">Rahma Abd Alhakeem Ali</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto d-flex align-items-center flex-md-row gap-2">
+          <li class="nav-item"><a class="nav-link text-light fs-5" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-light fs-5" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light fs-5" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link text-light fs-5" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#projects" class="btn btn-outline-light ms-3">My Portfolio</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <div id="home" class="container-fluid min-vh-100 d-flex justify-content-center align-items-center">
+    <div class="text-center">
+      <img src="https://www2.0zz0.com/2025/05/07/16/542152827.png"
+           alt="Rahma Abd Alhakeem - Front End Developer"
+           class="img-fluid rounded-circle mb-3"
+           style="max-width: 300px;">
+
+      <h2 class="fw-bold mb-4 mt-4 fade-in-up">Front End Developer  (Junior)</h2>
+
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
+        <a href="https://www.linkedin.com/in/rahma-abd-alhakeem" class="btn btn-outline-info fs-4 px-4 py-2" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/RahmaAbdalhakeem" class="btn btn-outline-light fs-4 px-4 py-2" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:rahmaabdalhkeem730@gmail.com" class="btn btn-outline-info fs-4 px-4 py-2" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About-->
+  <section id="about" class="about-section py-2">
+    <div class="container pt-5">
+      <div class="row gy-2 align-items-start">
+        <div class="col-md-6">
+          <h2 class="text-light mb-3">About Me</h2>
+          <p>
+        I am a Front-End Developer passionate about creating seamless and interactive web experiences. I specialize in building responsive web interfaces using HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS, combining design with performance. I continuously enhance my skills in React.js and Next.js to develop modern, high-performance digital solutions.
+        </p>
+               
+       <p>
+       My goal is to deliver work that integrates functionality, design, and technical expertise, emphasizing innovation and professionalism, while creating engaging and user-friendly experiences for every project I work on.
+       </p>
+       </div>
+
+        <!-- Skills -->
+        <div class="col-md-6 mt-5">
+          <h2 class="text-light mb-4 text-center ">Skills</h2>
+
+          <p class="mb-1 fw-semibold">HTML</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 100%">100%</div>
+          </div>
+
+          <p class="mb-1 fw-semibold">CSS</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 100%">100%</div>
+          </div>
+
+          <p class="mb-1 fw-semibold">TailwindCSS</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 90%">90%</div>
+          </div>
+
+          <p class="mb-1 fw-semibold">Bootstrap</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 95%">95%</div>
+          </div>
+
+          <p class="mb-1 fw-semibold">JavaScript</p>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 75%">75%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects-->
+  <section id="projects" class="py-5">
+    <div class="container">
+    <div class="row g-4">
+   <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+    <div class="card-body bg-black">
+      <h4 class="card-title text-info">owl-food slider</h4>
+      <p class="card-text text-light">
+        An interactive web interface for displaying food items in a slider format using
+        the Owl Carousel library.
+      </p>
+      <a href="https://github.com/RahmaAbdalhakeem/owl-food-slider"
+         class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+    </div>
+  </div>
+</div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title text-info">Bootstrap-MOOC Cards</h4>
+              <p class="card-text text-light">Simple Bootstrap project displaying course cards with clickable certificates.</p>
+              <a href="https://github.com/RahmaAbdalhakeem/Bootstrap-MOOC-Cards" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title  text-info">Bootstrap-login Github</h4>
+              <p class="card-text text-light">A clean and modern GitHub-style login form built with Bootstrap</p>
+              <a href="https://github.com/RahmaAbdalhakeem/Bootstrap-login-Github" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+<div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title text-info">Bootstrap-Navbar Dropdown</h4>
+              <p class="card-text text-light">A responsive Bootstrap navbar with dropdown menus and a modern design.</p>
+              <a href="https://github.com/RahmaAbdalhakeem/Bootstrap-Navbar-Dropdown" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title text-info">Library sweetalert</h4>
+              <p class="card-text text-light">A simple project that demonstrates the use of the SweetAlert library to display beautiful interactive alerts using HTML, CSS, and JavaScript.
+                 Features: Success, warning, and information alerts </p>
+              <a href="https://github.com/RahmaAbdalhakeem/library-sweetalert" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title text-info">Micronjs buttons </h4>
+              <p class="card-text text-light"> Simple demo page showcasing button animations using Micron.js </p>
+              <a href="https://github.com/RahmaAbdalhakeem/Micronjs-buttons-Example" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title text-info"> simple calculator </h4>
+              <p class="card-text text-light">A simple calculator for basic arithmetic operations</p>
+              <a href="https://github.com/RahmaAbdalhakeem/simple-calculator" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title text-info">Greensy Website</h4>
+              <p class="card-text text-light"> Transforming your space with beautiful flowers and lush plants </p>
+              <a href="https://github.com/RahmaAbdalhakeem/Greensy-Website" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+<div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body bg-black">
+              <h4 class="card-title text-info">Personal Portfolio </h4>
+              <p class="card-text text-light"> Crafting sleek interactive web experiences </p>
+              <a href="https://github.com/RahmaAbdalhakeem/Personal-Portfolio" class="btn btn-outline-info" target="_blank" rel="noopener noreferrer">Link</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->  
+  <footer class="bg-info text-center text-light py-3 mt-5">
+    <h6>© 2026 <strong>Rahma Abd Alhakeem</strong></h6>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
